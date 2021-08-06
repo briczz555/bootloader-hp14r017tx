@@ -1,0 +1,85 @@
+7:120  4:143  Found UEFI Acpi 2.0 RSDP at 9CFFE014
+7:120  0:000  Saving ACPI tables from RSDP 9CFFE014 to EFI\CLOVER\ACPI\origin ...
+7:120  0:000   9CFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+7:189  0:069    (Xsdt: 9CFFE210, Rsdt: 9CFFE124)
+7:189  0:000    9CFFE210: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 188 -> XSDT.aml
+7:200  0:010    9CFFE124: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 112 -> RSDT.aml
+7:205  0:004    Tables in Xsdt: 19
+7:205  0:000    0. 9CFF8000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268 -> FACP.aml
+7:211  0:006        (Dsdt: 9CFE1000, Facs: 9CFA9000, XDsdt: 9CFE1000, XFacs: 0)
+7:211  0:000        9CFE1000: 'DSDT', 'SLIC-MPC', Rev: 2, Len: 79792 -> DSDT.aml
+7:220  0:008        9CFA9000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+7:227  0:007    1. 9CFFD000: 'UEFI', 'INSYDE', Rev: 1, Len: 566 -> UEFI.aml
+7:234  0:007    2. 9CFFB000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68 -> FPDT.aml
+7:240  0:005    3. 9CFF9000: 'ASF!', 'INSYDE', Rev: 32, Len: 165 -> ASF!.aml
+7:246  0:006    4. 9CFF7000: 'HPET', 'INSYDE', Rev: 1, Len: 56 -> HPET.aml
+7:251  0:004    5. 9CFF6000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 140 -> APIC.aml
+7:256  0:005    6. 9CFF5000: 'MCFG', 'INSYDE', Rev: 1, Len: 60 -> MCFG.aml
+7:262  0:005    7. 9CFE0000: 'SSDT', 'INSYDE', Rev: 1, Len: 1790 -> SSDT-0-INSYDE.aml
+7:269  0:006    8. 9CFDE000: 'BOOT', 'INSYDE', Rev: 1, Len: 40 -> BOOT.aml
+7:278  0:009    9. 9CFDC000: 'ASPT', 'INSYDE', Rev: 7, Len: 52 -> ASPT.aml
+7:283  0:005    10. 9CFDB000: 'DBGP', 'INSYDE', Rev: 1, Len: 52 -> DBGP.aml
+7:290  0:006    11. 9CFD7000: 'LPIT', 'INSYDE', Rev: 1, Len: 92 -> LPIT.aml
+7:295  0:005    12. 9CFD6000: 'SSDT', 'INSYDE', Rev: 1, Len: 1238 -> SSDT-1-INSYDE.aml
+7:301  0:005    13. 9CFD5000: 'SSDT', 'INSYDE', Rev: 1, Len: 2776 -> SSDT-2-INSYDE.aml (Found hidden SSDT 4 pcs)
+7:306  0:005        * 8C102A98: 'SSDT', 'INSYDE', Rev: 1, Len: 1238  53 53 44 54 D6 04 00 00 01 40 48 50 51 4F 45 4D Internal length = 1238 -> SSDT-x2_0-INSYDE.aml
+7:313  0:006        * 9CE6F618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 CF 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x2_1-ApIst.aml
+7:322  0:009        * 9CE6FC18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 AF 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x2_2-Cpu0Cst.aml
+7:328  0:005        * 9CE6ED98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EB 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_3-ApCst.aml
+7:335  0:006  
+7:335  0:000    14. 9CFD4000: 'SSDT', 'INSYDE', Rev: 1, Len: 455 -> SSDT-3-INSYDE.aml
+7:339  0:004    15. 9CFCE000: 'SSDT', 'INSYDE', Rev: 1, Len: 23060 -> SSDT-4-INSYDE.aml
+7:345  0:005    16. 9CFC9000: 'SSDT', 'INSYDE', Rev: 1, Len: 11318 -> SSDT-5-INSYDE.aml
+7:358  0:013    17. 9CFCD000: 'BGRT', 'INSYDE', Rev: 1, Len: 56 -> BGRT.aml
+7:363  0:004    18. 9CFCC000: 'DMAR', 'INSYDE', Rev: 1, Len: 176 -> DMAR.aml
+7:368  0:004    Tables in Rsdt: 19
+7:368  0:000    0. 9CFF8000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+7:368  0:000        (Dsdt: 9CFE1000, Facs: 9CFA9000, XDsdt: 9CFE1000, XFacs: 0)
+7:368  0:000        9CFE1000: 'DSDT', 'SLIC-MPC', Rev: 2, Len: 79792
+7:369  0:001        9CFA9000: 'FACS', Ver: 2, Len: 64
+7:369  0:000    1. 9CFFD000: 'UEFI', 'INSYDE', Rev: 1, Len: 566
+7:369  0:000    2. 9CFFB000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+7:369  0:000    3. 9CFF9000: 'ASF!', 'INSYDE', Rev: 32, Len: 165
+7:369  0:000    4. 9CFF7000: 'HPET', 'INSYDE', Rev: 1, Len: 56
+7:369  0:000    5. 9CFF6000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 140
+7:369  0:000    6. 9CFF5000: 'MCFG', 'INSYDE', Rev: 1, Len: 60
+7:369  0:000    7. 9CFE0000: 'SSDT', 'INSYDE', Rev: 1, Len: 1790
+7:369  0:000    8. 9CFDE000: 'BOOT', 'INSYDE', Rev: 1, Len: 40
+7:369  0:000    9. 9CFDC000: 'ASPT', 'INSYDE', Rev: 7, Len: 52
+7:369  0:000    10. 9CFDB000: 'DBGP', 'INSYDE', Rev: 1, Len: 52
+7:369  0:000    11. 9CFD7000: 'LPIT', 'INSYDE', Rev: 1, Len: 92
+7:369  0:000    12. 9CFD6000: 'SSDT', 'INSYDE', Rev: 1, Len: 1238
+7:369  0:000    13. 9CFD5000: 'SSDT', 'INSYDE', Rev: 1, Len: 2776
+7:369  0:000    14. 9CFD4000: 'SSDT', 'INSYDE', Rev: 1, Len: 455
+7:369  0:000    15. 9CFCE000: 'SSDT', 'INSYDE', Rev: 1, Len: 23060
+7:369  0:000    16. 9CFC9000: 'SSDT', 'INSYDE', Rev: 1, Len: 11318
+7:369  0:000    17. 9CFCD000: 'BGRT', 'INSYDE', Rev: 1, Len: 56
+7:369  0:000    18. 9CFCC000: 'DMAR', 'INSYDE', Rev: 1, Len: 176
+7:369  0:000  Found UEFI Acpi 1.0 RSDP at 9CFFE000
+7:369  0:000  Printing ACPI tables from RSDP 9CFFE000 ...
+7:369  0:000   9CFFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+7:369  0:000    (Rsdt: 9CFFE038)
+7:369  0:000    9CFFE038: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 112
+7:369  0:000    Tables in Rsdt: 19
+7:369  0:000    0. 9CFF8000: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+7:369  0:000        (Dsdt: 9CFE1000, Facs: 9CFA9000, XDsdt: 9CFE1000, XFacs: 0)
+7:369  0:000        9CFE1000: 'DSDT', 'SLIC-MPC', Rev: 2, Len: 79792
+7:371  0:001        9CFA9000: 'FACS', Ver: 2, Len: 64
+7:371  0:000    1. 9CFFD000: 'UEFI', 'INSYDE', Rev: 1, Len: 566
+7:371  0:000    2. 9CFFB000: 'FPDT', 'SLIC-MPC', Rev: 1, Len: 68
+7:371  0:000    3. 9CFF9000: 'ASF!', 'INSYDE', Rev: 32, Len: 165
+7:371  0:000    4. 9CFF7000: 'HPET', 'INSYDE', Rev: 1, Len: 56
+7:371  0:000    5. 9CFF6000: 'APIC', 'SLIC-MPC', Rev: 3, Len: 140
+7:371  0:000    6. 9CFF5000: 'MCFG', 'INSYDE', Rev: 1, Len: 60
+7:371  0:000    7. 9CFE0000: 'SSDT', 'INSYDE', Rev: 1, Len: 1790
+7:371  0:000    8. 9CFDE000: 'BOOT', 'INSYDE', Rev: 1, Len: 40
+7:371  0:000    9. 9CFDC000: 'ASPT', 'INSYDE', Rev: 7, Len: 52
+7:371  0:000    10. 9CFDB000: 'DBGP', 'INSYDE', Rev: 1, Len: 52
+7:371  0:000    11. 9CFD7000: 'LPIT', 'INSYDE', Rev: 1, Len: 92
+7:371  0:000    12. 9CFD6000: 'SSDT', 'INSYDE', Rev: 1, Len: 1238
+7:371  0:000    13. 9CFD5000: 'SSDT', 'INSYDE', Rev: 1, Len: 2776
+7:371  0:000    14. 9CFD4000: 'SSDT', 'INSYDE', Rev: 1, Len: 455
+7:371  0:000    15. 9CFCE000: 'SSDT', 'INSYDE', Rev: 1, Len: 23060
+7:371  0:000    16. 9CFC9000: 'SSDT', 'INSYDE', Rev: 1, Len: 11318
+7:371  0:000    17. 9CFCD000: 'BGRT', 'INSYDE', Rev: 1, Len: 56
+7:371  0:000    18. 9CFCC000: 'DMAR', 'INSYDE', Rev: 1, Len: 176
