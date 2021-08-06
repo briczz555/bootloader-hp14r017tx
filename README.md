@@ -1,8 +1,3 @@
----
-
-
----
-
 <h1 id="bootloader-hp-14-r017tx">Bootloader HP 14 r017tx</h1>
 <p>Config Bootloader untuk Laptop HP 14 r017tx.<br>
 Spesifikasi Singkat Laptop:</p>
