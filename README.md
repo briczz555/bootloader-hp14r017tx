@@ -24,4 +24,12 @@ Shutdown / Restart<br>
 <h2 id="cara-pemakaian">Cara Pemakaian</h2>
 <p>Didalam folder terdapat 2 config bootloader yaitu <strong>Clover</strong> dan <strong>Open Core</strong>.<br>
 Pilih salah satu untuk penggunaan bootloadernya, download dan copy ke partisi <strong>EFI</strong></p>
+<h2 id="credit">Credit</h2>
+<p> RehabMan <br>
+ic005k <br>
+mackie100 <br>
+dortania <br>
+acidanthera <br>
+Clover Hacky Color <br>
+</p>
 
